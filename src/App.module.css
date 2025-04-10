@@ -1,0 +1,120 @@
+.app {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6e9f0 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4a00e0;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formContainer {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #4a00e0;
+    box-shadow: 0 0 0 2px rgba(74, 0, 224, 0.2);
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    background: #4a00e0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background: #3a00b8;
+  }
+  
+  .recordsContainer {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+  
+  .subHeader {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+  }
+  
+  .emptyText {
+    color: #6b7280;
+    font-size: 1rem;
+  }
+  
+  .recordsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recordItem {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .recordName {
+    color: #374151;
+    font-size: 1rem;
+  }
+  
+  .recordDate {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  .recommendationsContainer {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+
+  .txLink {
+    margin-left: 1rem;
+    color: #4a00e0;
+    text-decoration: underline;
+    font-size: 0.875rem;
+  }
+  
+  .txLink:hover {
+    color: #3a00b8;
+  }
